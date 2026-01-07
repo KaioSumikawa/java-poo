@@ -1,17 +1,20 @@
 package aula12;
-public class Reptil extends Animal {
+public class Peixe extends Animal {
     private String corEscama;
     @Override
     public void locomover() {
-        System.out.println("Rastejando");
+        System.out.println("Nadando");
     }
     @Override
     public void alimentar() {
-        System.out.println("Comendo Vegetais");
+        System.out.println("Comendo Substâncias");
     }
     @Override
     public void emitirSom() {
-        System.out.println("Som de Reptil");
+        System.out.println("Peixe não faz som");
+    }
+    public void soltarBolha() {
+        System.out.println("Soltando Bolha");
     }
 
     public String getCorEscama() {
